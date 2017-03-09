@@ -14,11 +14,11 @@
       <div class="container">
         <div class="nav__menu">
           <p class="nav__menu-title">Puppies</p>
-          <i class="fa fa-plus-circle" aria-hidden="true"></i>
+          <div class="nav__menu-toggle"><i class="fa fa-plus-circle" aria-hidden="true"></i></nav>
         </div>
       </div>
     </div>
-    <div class="form">
+    <div class="form form--toggle">
       <div class="container">
         <p class="form__header">Add a new puppy</p>
         <div class="form__group">
@@ -30,22 +30,41 @@
           <input type="text" id="age" class="form__input">
         </div>
         <div class="form__group">
+          <label for="breed" class="form__label">Breed</label>
+          <input type="text" id="breed" class="form__input">
+        </div>
+        <div class="form__group">
           <label for="photo" class="form__label">Photo URL</label>
           <input type="text" id="photo" class="form__input">
         </div>
         <div class="form__group">
           <label for="description" class="form__label">Description</label>
-          <textarea id="description" rows="5" cols="40" class="form__input"></textarea>
+          <input type="text" id="description" class="form__input">
         </div>
+        <button class="form__button">Save</button>
       </div>
     </div>
   </div>
   <div class="app__main">
-
+  <div class="card">
+    <img src="https://instagram.fbna1-2.fna.fbcdn.net/t51.2885-15/e35/16228896_1871258666425487_1079042715586396160_n.jpg" alt="" class="card__image">
+    <div class="card__info">
+      <p class="card__info-title">Name</p>
+      <p class="card__info-subtitle">Maggie</p>
+      <p class="card__info-title">Age</p>
+      <p class="card__info-subtitle">1.5 years</p>
+      <p class="card__info-title">Breed</p>
+      <p class="card__info-subtitle">Golden Retriever Mix</p>
+      <p class="card__info-title">Description</p>
+      <p class="card__info-subtitle">I love treats, going on walks and riding in the car!</p>
+    </div>
   </div>
   </div>
+  </div>
 
-  <script src="/app.js" charset="utf-8"></script>
+  <script src="/app.js" charset="utf-8">
+start(app);
+  </script>
 </body>
 
 </html>

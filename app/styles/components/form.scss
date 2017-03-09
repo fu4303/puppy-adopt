@@ -1,7 +1,12 @@
 .form {
+  display: none;
   padding: 1rem 0;
   background: $c-form;
   color: $c-white;
+
+  &--toggle {
+    display: block;
+  }
 
   &__header {
     margin: 0.5rem 0;
@@ -14,5 +19,32 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 0.3rem;
+  }
+
+  &__input {
+    border: 0;
+    border-bottom: 1px solid $c-border;
+    outline: 0;
+    background: $c-form;
+
+    &:focus {
+      border-bottom: 1px solid $c-primary;
+    }
+  }
+
+  &__button {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+    border: 0;
+    background: $c-primary;
+    color: $c-white;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+      background: $c-white;
+      color: $c-primary;
+    }
   }
 }
