@@ -11,12 +11,38 @@
 <body>
   <div class="app">
     <div class="nav">
-      <p class="nav__title">Puppies</p>
-      <div class="nav__menu"><i class="fa fa-plus-circle" aria-hidden="true"></i></div>
+      <div class="container">
+        <div class="nav__menu">
+          <p class="nav__menu-title">Puppies</p>
+          <i class="fa fa-plus-circle" aria-hidden="true"></i>
+        </div>
+      </div>
     </div>
-    <div class="app__main">
+    <div class="form">
+      <div class="container">
+        <p class="form__header">Add a new puppy</p>
+        <div class="form__group">
+          <label for="name" class="form__label">Name</label>
+          <input type="text" id="name" class="form__input">
+        </div>
+        <div class="form__group">
+          <label for="age" class="form__label">Age</label>
+          <input type="text" id="age" class="form__input">
+        </div>
+        <div class="form__group">
+          <label for="photo" class="form__label">Photo URL</label>
+          <input type="text" id="photo" class="form__input">
+        </div>
+        <div class="form__group">
+          <label for="description" class="form__label">Description</label>
+          <textarea id="description" rows="5" cols="40" class="form__input"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="app__main">
 
-    </div>
+  </div>
   </div>
 
   <script src="/app.js" charset="utf-8"></script>

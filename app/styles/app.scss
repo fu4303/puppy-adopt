@@ -1,5 +1,6 @@
-$c-primary: #ff6600;
+$c-primary: #368ca3;
 $c-white: #fff;
+$c-form: #c9c5c8;
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
@@ -7,3 +8,4 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'reset';
 @import 'layout';
 @import 'components/nav';
+@import 'components/form';

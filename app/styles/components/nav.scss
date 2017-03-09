@@ -1,13 +1,14 @@
 .nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 2rem;
   background: $c-primary;
   color: $c-white;
 
-  &__title {
+  &__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__menu-title {
     margin: 0.5rem 0;
     font-size: 1.2rem;
     text-transform: uppercase;
