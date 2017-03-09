@@ -2,6 +2,9 @@ $c-primary: #368ca3;
 $c-white: #fff;
 $c-form: #c9c5c8;
 $c-border: #808080;
+$c-card: #f2f2f3;
+
+$box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
 
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
@@ -10,3 +13,4 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'layout';
 @import 'components/nav';
 @import 'components/form';
+@import 'components/card';
