@@ -10,7 +10,6 @@
 
   &__image {
     width: 12rem;
-    border-radius: 50%;
   }
 
   &__info {
@@ -38,6 +37,7 @@
     margin: 0.5rem 0;
     padding: 0.5rem 1rem;
     border: 0;
+    border-radius: 0.4rem;
     background: $c-primary;
     color: $c-white;
     font-family: 'PT Sans Narrow', sans-serif;
